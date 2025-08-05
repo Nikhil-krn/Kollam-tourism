@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kollam Tourism | Cashew Capital of the World </title>
+    <link rel = "stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>Kollam <span class = "highlight">Explorer</span></h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Journey Through Kollam</h1>
+            <p>The Chashew Capital of the World</p>
+            <a href="#destinations" class="btn">Explore Destinations</a>
+        </div>
+        <div class="scroll-down" onclick="document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Kollam</h2>
+                <p>One of the most ancient seaport on the Malabar Coast</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Enchanting Backwaters and Lush Landscapes</h3>
+                    <p> Kollam was initially an enclave of the Portuguese, Dutch and the British in this succession order. Today, however, the city of Kollam is known as the World Capital for Cashew Export as well as for its surrounding historical monuments and enchanting backwaters. Kollam, a city of the Indian state of Kerala, is located on the banks of the Ashtamudi Lake which links numerous water channels to form the famous backwaters that are famous globally.</p>
+                    <p>A ride through its silky waters becomes an unforgettable memory in those fortunate enough to have cruised through the lakes numerous islands and emerald greenery.</p>
+                    <p></p>
+                    <a href="#destinations" class="btn">Explore Destinations</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://res.cloudinary.com/dptl75ozr/image/upload/v1754411468/kollam-hero-image_z1d3fy.jpg" alt="Kollam Scenery">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="destinations" id="destinations">
+        <div class="container">
+            <div class="section-title">
+                <h2>Top Destinations</h2>
+                <p>Experience the true Majesty of Kollam</p>
+            </div>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="nature">Nature</button>
+                <button class="filter-btn" data-filter="recreational">Recreational</button>
+                <button class="filter-btn" data-filter="cultural">Cultural</button>
+            </div>
+            <div class="destinations-grid" id="destinationsContainer">
+                <!-- Destination cards will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Gallery</h2>
+                <p>Capturing the essence of Kollam</p>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="" alt="Munroe island">
+                    <div class="caption"></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="" alt="Varkkala beach">
+                    <div class="caption"></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="" alt="Jatayu Para">
+                    <div class="caption"></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="" alt="Thenmala Eco-Tourism">
+                    <div class="caption"></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="" alt="Palaruvi Waterfalls">
+                    <div class="caption"></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="" alt="Mangrove forest">
+                    <div class="caption"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Kollam Explorer</h3>
+                    <p>With its glorious stretch of golden sand and azure waters, Kollam is the quintessential destination for travellers</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/keralatourismofficial/reels"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/keralatourism/status/597378080731082753?lang=en"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/palakkadtourismm?igsh=MWl2dTdqY3A5MmxyYQ=="><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/watch?v=duGEQ5eSQ1g"><i class="fab fa-youtube"></i></a>
+                        <a href="https://in.pinterest.com/reachkerala/palakkad-district-kerala"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                    
+                    <div class="helpline-section">
+                        <h4><i class="fas fa-phone-volume"></i> Tourism Helpline</h4>
+                        <p><i class="fas fa-phone"></i> +91 xxx 340 3928</p>
+                        <p><i class="fas fa-mobile-alt"></i> +91 xxx 555 7777</p>
+                        <p><i class="fas fa-envelope"></i> help@keralatourism.org</p>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Popular Destinations</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="destination-link" data-id="0"><i class="fas fa-map-marker-alt"></i>Thanagassery Beach </a></li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> District Tourism Office, Kollam , Kerala 691001</p>
+                    <p><i class="fas fa-phone"></i> +91 xxx 102111</p>
+                    <p><i class="fas fa-envelope"></i> info@fakeemail.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 6:00 PM</p>
+                    <a href="#" class="btn" style="margin-top: 15px;">Get Travel Guide</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kollam Explorer. All rights reserved. | Designed with <i class="fas fa-heart" style="color: var(--accent);"></i> for Kerala Tourism</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+     <script>
+        // Destination Data with Google Maps links, restaurants and stays
+        const destinations = [
+            {
+                id: 0,
+                name: "Malampuzha Dam",
+                image: "https://res.cloudinary.com/dptl75ozr/image/upload/v1753507655/malampuzha_dam_skwbp4.jpg",
+                shortDesc: "Malampuzha Dam is the largest dam and reservoir in Kerala, located in Palakkad",
+                longDesc: "Malampuzha is a quaint little town in Kerala State that has developed around the agricultural dam built there. It is home to Malampuzha Garden known as the vrindavan of kerala, snake park, hanging bridge, and recreational facilities like boating . It is 10 kms from Palakkad.",
+                category: "recreational",
+                climate: "Rainy and comfortable",
+                activities: " Boating, Photography , Water park ",
+                bestTime: "November to February",
+                mapLink: "https://maps.app.goo.gl/9PE1Nngqkfec3oqF9",
+                restaurants: [
+                    { restaurantName: "Thazhvarath Restaurant", cuisine: "Multi-cuisine" },
+                    { restaurantName: "BELVOIR Restaurant", cuisine: "Multi-cuisine" }
+                ],
+                stays: [
+                    { hotelName: "Hotel Govardhana Samos", type: "3-Star Resort" },
+                    { hotelName: "Au Revoir Resort", type: "Resort" }
+                ]
+            },
+            {
+                id: 1,
+                name: "Parambikulam Wildlife Sanctuary",
+                image: "https://res.cloudinary.com/dptl75ozr/image/upload/v1753507655/parambikulam_vzfkjk.jpg",
+                shortDesc: "A haven for wildlife enthusiasts, offering opportunities to spot elephants, tigers, and other animals.",
+                longDesc: "Parambikulam Tiger Reserve, which also includes the erstwhile Parambikulam Wildlife Sanctuary, is a 643.66 square kilometres (248.5 sq mi)[2] protected area lying in Palakkad district and Thrissur district of Kerala state, South India.The tiger reserve has remnants of the Cochin State Forest Tramway, which was used to ship wood from the Parambikulam forests to the nearby harbor at Kochi, and from there to different locations of the world.",
+                category: "nature",
+                climate: "cool and pleasant",
+                activities: "sight-seeing, safari",
+                bestTime: "september to may",
+                mapLink: "https://maps.app.goo.gl/9esVSKhDbGiEwMNX7",
+                restaurants: [
+                    {restaurantName: "Honeycomb", cuisine: "Multi-cuisine"}
+                ],
+                stays: [
+                    {hotelName: "Honeycomb", type: "getaway resort"},
+                    {hotelName: "Tented Niche", type: "resort"}
+                ]
+            },
+            {
+                id: 2,
+                name: "Hyder Ali Fort",
+                image: "https://res.cloudinary.com/dptl75ozr/image/upload/v1753507655/PalakkadFort_she9aa.jpg",
+                shortDesc: "Palakkad Fort is an old fort situated in the heart of Palakkad city of Kerala state, southern India. It was recaptured and rebuilt grandly by Sultan Hyder Ali in 1766 A.D and remains one of the best-preserved forts in Kerala.",
+                longDesc: "The Palakkad Fort is said to have existed from very ancient times but believed to be constructed in the present form in 1766 A.D, but little is known of its early history. The local ruler, Palakkad Achchan, was originally a tributary of the Samoothiri but had become independent before the beginning of the eighteenth century.",
+                category: "cultural",
+                climate: "moderately wet",
+                activities: "sight-seeing",
+                bestTime: "All year round",
+                mapLink: "https://maps.app.goo.gl/5rJ9dNSM78Qxf1MGA",
+                restaurants: [
+                    {restaurantName: "Farzi Kuzhimanthi", cuisine: "arabian"},
+                    {restaurantName: "Aadhi Bhavan", cuisine: "Indian vegetarian"}
+                ],
+                stays: [
+                    {hotelName: "Hotel Fort Palace", type: "4 star hotel"},
+                    {hotelName: "Hotel Indraprastha", type: "3 star hotel"}
+                ]
+            },
+            {
+                id: 3,
+                name: "Varikkassery Mana",
+                image: "https://res.cloudinary.com/dptl75ozr/image/upload/v1753506638/cardImg_Mana.jpg",
+                shortDesc: "Varikkumanchery Mana, is a well known mansion belonging to Namboothiri nobility in Valluvanad region of Kerala.",
+                longDesc: "Built in traditional Kerala architectural on a plot of land measuring approximately 4 acres, the building is located at Manissery, a village in Ottapalam in Palakkad. It is a popular shooting location for several commercially successful films such as Devasuram, Aaraam Thampuran, Rappakal and Aranmanai 4.",
+                category: "cultural",
+                climate: "humid",
+                activities: "sight-seeing",
+                bestTime: "All year round",
+                mapLink: "https://maps.app.goo.gl/DpbX46AKN4jDqBLj9",
+                restaurants: [
+                    {restaurantName: "Muttam Diner", cuisine: "Indian"},
+                    {restaurantName: "PARAMOUNT RESTAURANT & PINK CAFE", cuisine: "Multi-cuisine"}
+                ],
+                stays: [
+                    {hotelName: "Kalappura Farm House", type: "resort"}
+                ]
+            }
+        ];
+
+        // DOM Elements
+        const destinationsContainer = document.getElementById('destinationsContainer');
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        const header = document.getElementById('header');
+        const destinationLinks = document.querySelectorAll('.destination-link');
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Generate destination cards
+            generateDestinationCards(destinations);
+            
+            // Add event listeners
+            addEventListeners();
+            
+            
+        });
+
+        // Generate destination cards
+        function generateDestinationCards(destinationsArray){
+            destinationsContainer.innerHTML = '';
+            
+            destinationsArray.forEach(destination => {
+                const card = document.createElement('div');
+                card.className = `destination-card ${destination.category}`;
+                card.innerHTML = `
+                    <div class = "card-image">
+                        <img src = "${destination.image}" alt = "${destination.name}">
+                    </div>
+                    <div class = "card-content">
+                        <h3>${destination.name}</h3>
+                        <p>${destination.shortDesc}</p>
+                        <a href = "${destination.mapLink}" target = "_blank" class = "map-link">
+                            <i class = "fas fa-map-marker-alt"></i> View on map
+                        </a>
+                    </div>
+                    <div>
+                        <button class = "btn view-details" aria-label = "View Details" data-id = "${destination.id}">
+                            <i class = "fas fa-circle-info"></i>
+                        </button>
+                    </div>
+                    <div class = "card-badge">${destination.category.charAt(0).toUpperCase() + destination.category.slice(1)}</div>
+                    `;
+                    destinationsContainer.appendChild(card);
+            });
+        
+            
+            // Add event listeners to detail buttons
+            document.querySelectorAll('.view-details').forEach(button => {
+                button.addEventListener('click', function() {
+                    const id = this.getAttribute('data-id');
+                    showDestinationDetails(id);
+                });
+            });
+        }
+
+        // Show destination details
+        function showDestinationDetails(id) {
+            const destination = destinations.find(dest => dest.id === parseInt(id));
+            
+            if (destination) {
+                // Create modal-like overlay
+                const overlay = document.createElement('div');
+                overlay.style.position = 'fixed';
+                overlay.style.top = '0';
+                overlay.style.left = '0';
+                overlay.style.width = '100%';
+                overlay.style.height = '100%';
+                overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
+                overlay.style.zIndex = '2000';
+                overlay.style.display = 'flex';
+                overlay.style.justifyContent = 'center';
+                overlay.style.alignItems = 'center';
+                overlay.style.padding = '20px';
+                overlay.style.overflowY = 'auto';
+                
+                // Create modal content
+                const modalContent = document.createElement('div');
+                modalContent.style.background = 'white';
+                modalContent.style.maxWidth = '900px';
+                modalContent.style.width = '100%';
+                modalContent.style.borderRadius = '15px';
+                modalContent.style.overflow = 'hidden';
+                modalContent.style.position = 'relative';
+                modalContent.style.animation = 'modalOpen 0.5s ease';
+                modalContent.style.maxHeight = '90vh';
+                modalContent.style.overflowY = 'auto';
+                
+                // Generate restaurants HTML
+                let restaurantsHTML = '';
+                destination.restaurants.forEach(restaurant => {
+                    restaurantsHTML += `
+                        <div style="margin-bottom: 10px;">
+                            <div style="font-weight: 600;">${restaurant.restaurantName}</div>
+                            <div style="font-size: 0.9rem; color: #666;">${restaurant.cuisine}</div>
+                        </div>
+                    `;
+                });
+                
+                // Generate stays HTML
+                let staysHTML = '';
+                destination.stays.forEach(stay => {
+                    staysHTML += `
+                        <div style="margin-bottom: 10px;">
+                            <div style="font-weight: 600;">${stay.hotelName}</div>
+                            <div style="font-size: 0.9rem; color: #666;">${stay.type}</div>
+                        </div>
+                    `;
+                });
+                
+                modalContent.innerHTML = `
+                    <div style="background: var(--primary); padding: 25px; color: white; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 10;">
+                        <h3 style="font-size: 1.8rem; font-family: 'Playfair Display', serif;">${destination.name}</h3>
+                        <button class="close-modal" style="background: none; border: none; color: white; font-size: 2rem; cursor: pointer; transition: all 0.3s ease;">&times;</button>
+                    </div>
+                    <div style="padding: 30px; display: flex; gap: 30px; flex-wrap: wrap;">
+                        <div style="flex: 1; min-width: 300px; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);">
+                            <img src="${destination.image}" alt="${destination.name}" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div style="flex: 1; min-width: 300px;">
+                            <p style="margin-bottom: 20px; font-size: 1.1rem; line-height: 1.8;">${destination.longDesc}</p>
+                            <div style="display: flex; gap: 15px; margin: 20px 0; flex-wrap: wrap;">
+                                <div style="background: var(--light); padding: 12px 15px; border-radius: 8px; display: flex; align-items: center; gap: 8px;">
+                                    <i class="fas fa-sun" style="color: var(--primary);"></i>
+                                    <span>Climate: ${destination.climate}</span>
+                                </div>
+                                <div style="background: var(--light); padding: 12px 15px; border-radius: 8px; display: flex; align-items: center; gap: 8px;">
+                                    <i class="fas fa-hiking" style="color: var(--primary);"></i>
+                                    <span>Activities: ${destination.activities}</span>
+                                </div>
+                                <div style="background: var(--light); padding: 12px 15px; border-radius: 8px; display: flex; align-items: center; gap: 8px;">
+                                    <i class="fas fa-calendar-alt" style="color: var(--primary);"></i>
+                                    <span>Best Time: ${destination.bestTime}</span>
+                                </div>
+                            </div>
+                            
+                            <div style="margin-top: 30px; display: flex; gap: 30px; flex-wrap: wrap;">
+                                <div style="flex: 1; min-width: 250px;">
+                                    <h4 style="color: var(--primary); margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                                        <i class="fas fa-utensils"></i> Nearby Restaurants
+                                    </h4>
+                                    ${restaurantsHTML}
+                                </div>
+                                <div style="flex: 1; min-width: 250px;">
+                                    <h4 style="color: var(--primary); margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                                        <i class="fas fa-hotel"></i> Stay Facilities
+                                    </h4>
+                                    ${staysHTML}
+                                </div>
+                            </div>
+                            
+                            <div style="margin-top: 20px; display: flex; gap: 15px;">
+                                <a href="${destination.mapLink}" target="_blank" class="btn" style="margin-top: 10px;">
+                                    <i class="fas fa-map-marker-alt"></i> Open in Google Maps
+                                </a>
+                                <a href="#contact" class="btn" style="margin-top: 10px; background: var(--secondary);">
+                                    <i class="fas fa-phone"></i> Contact for Booking
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                overlay.appendChild(modalContent);
+                document.body.appendChild(overlay);
+                
+                // Close modal
+                const closeBtn = modalContent.querySelector('.close-modal');
+                closeBtn.addEventListener('click', () => {
+                    document.body.removeChild(overlay);
+                });
+                
+                // Close when clicking outside
+                overlay.addEventListener('click', (e) => {
+                    if (e.target === overlay) {
+                        document.body.removeChild(overlay);
+                    }
+                });
+            }
+        }
+
+        // Add event listeners
+        function addEventListeners() {
+            // Filter buttons
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const filter = this.getAttribute('data-filter');
+                    
+                    if (filter === 'all') {
+                        generateDestinationCards(destinations);
+                    } else {
+                        const filtered = destinations.filter(dest => dest.category === filter);
+                        generateDestinationCards(filtered);
+                    }
+                });
+            });
+            
+            // Footer destination links
+            destinationLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const id = this.getAttribute('data-id');
+                    showDestinationDetails(id);
+                    
+                    // Scroll to top
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+            
+            // Menu toggle for mobile
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+            
+            // Header scroll effect
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 100) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+            
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        window.scrollTo({
+                            top: target.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                        
+                        // Close mobile menu if open
+                        navLinks.classList.remove('active');
+                    }
+                });
+            });
+        }
+
+        
+    </script>   
+</body>
+</html>
