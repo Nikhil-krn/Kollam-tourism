@@ -1,1 +1,2 @@
-# Palakkad Tourism website
+# Kollam Tourism website
+
